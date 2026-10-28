@@ -1,0 +1,22 @@
+﻿# Obsidian 全部缓存、工作区、插件配置，整目录忽略
+.obsidian/
+
+# Workbuddy 全部缓存、工作区、插件配置，整目录忽略
+.workbuddy/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.tmp
+*.log
+
+secret.txt
+*.key
+*.pem
+*.env
+password*.ini
