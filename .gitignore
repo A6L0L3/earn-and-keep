@@ -1,22 +1,72 @@
-﻿# Obsidian 全部缓存、工作区、插件配置，整目录忽略
-.obsidian/
-
-# Workbuddy 全部缓存、工作区、插件配置，整目录忽略
-.workbuddy/
-
-# Mac
+﻿# ---------- macOS ----------
 .DS_Store
 
-# Windows
+# ---------- Windows ----------
 Thumbs.db
 desktop.ini
 
-# 临时文件
+# ---------- 临时文件 ----------
 *.tmp
 *.log
+*.swp
+*.swo
+*~
 
+# ---------- 依赖与构建产物（有代码/前端项目时启用） ----------
+node_modules/
+dist/
+build/
+.next/
+out/
+coverage/
+.turbo/
+
+# ---------- IDE / 编辑器 ----------
+.vscode/
+.idea/
+*.sublime-workspace
+
+# ---------- 安全：敏感文件 ----------
 secret.txt
+test.txt
 *.key
 *.pem
-*.env
 password*.ini
+
+# ---------- 安全：环境变量 ----------
+.env
+.env.*
+!.env.example
+
+# ---------- 安全：证书与私钥 ----------
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+id_rsa*
+id_ed25519*
+*_rsa
+*_ed25519
+
+# ---------- 安全：凭据 / 令牌 JSON ----------
+*credential*.json
+*token*.json
+*secret*.json
+
+# ---------- Obsidian ----------
+# 默认：整目录忽略 Obsidian 缓存、工作区、插件配置
+.obsidian/
+
+# 如果你希望用 Git 同步 Obsidian 插件/主题/核心配置，
+# 请删除上面的 .obsidian/，改用下面两行只忽略 UI 工作区：
+# .obsidian/workspace.json
+# .obsidian/workspace-mobile.json
+
+# ---------- 可选：Obsidian 插件缓存 ----------
+# 使用 Smart Connections / Copilot 等生成大索引时按需启用
+# .smart-connections/
+# .pro/copilot-index-*.json
+
+# ---------- Workbuddy ----------
+.workbuddy/
