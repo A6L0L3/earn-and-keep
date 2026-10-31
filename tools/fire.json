@@ -1,0 +1,9 @@
+{
+  "name": "示例：30岁 / 年收入24万 / 年支出14.4万",
+  "annual_income": 240000,
+  "annual_expense": 144000,
+  "swr": 0.04,
+  "real_return": 0.05,
+  "current_assets": 180000,
+  "coast_years": 20
+}

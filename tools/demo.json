@@ -1,0 +1,10 @@
+{
+  "name": "示例：某制造业公司",
+  "price": 32.0,
+  "shares": 10000,
+  "balance": {"current_assets": 100000, "total_liab": 60000, "preferred": 0,
+              "cash": 30000, "ar": 25000, "inventory": 40000, "prepaid": 5000},
+  "income": {"eps": 3.20, "bvps": 28.50, "g": 5.0, "aaa_yield": 4.4,
+             "net_income": 32000, "da": 6000, "maint_capex": 5000, "dwc": 2000},
+  "dcf": {"g": 0.03, "r": 0.10, "years": 10, "tg": 0.025}
+}

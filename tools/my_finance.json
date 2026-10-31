@@ -1,0 +1,15 @@
+{
+  "name": "示例：28岁 / 月入1.5万 / 一线城市",
+  "monthly_income": 15000,
+  "monthly_expense": {"居住": 4200, "餐饮": 2600, "交通": 700,
+                      "购物": 1800, "人情": 900, "娱乐": 1100, "通信": 300},
+  "micro_habits": {"每天一杯咖啡": 9000, "每周3次打车": 6240, "自动续费会员": 1400},
+  "emergency_fund": 20000,
+  "liquid_assets": 120000,
+  "insurance": {"医疗险": true, "重疾险": false, "意外险": true, "定期寿险": false},
+  "high_interest_debt": 30000,
+  "debt_apr": 0.18,
+  "income_sources": {"主动收入": 180000, "技能收入": 6000, "资产收入": 0},
+  "invested_assets": 40000,
+  "idle_cash": 80000
+}
